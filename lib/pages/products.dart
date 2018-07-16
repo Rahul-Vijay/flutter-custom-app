@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../product_manager.dart';
 import './product_admin.dart';
 
-class Products extends StatelessWidget {
+class ProductsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
