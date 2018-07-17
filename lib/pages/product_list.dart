@@ -6,6 +6,5 @@ class ProductListPage extends StatelessWidget {
     return Center(
       child: new Text('Manage your products'),
     );
-    ;
   }
 }

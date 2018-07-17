@@ -20,12 +20,9 @@ class Products extends StatelessWidget {
               FlatButton(
                 child: new Text('Details'),
                 onPressed: () => Navigator
-                        .push<bool>(
+                        .pushNamed<bool>(
                       context,
-                      MaterialPageRoute(
-                        builder: (BuildContext context) => ProductPage(
-                            products[index]['title'], products[index]['image']),
-                      ),
+                      '/product/' + index.toString(),
                     )
                         .then((bool value) {
                       if (value) {

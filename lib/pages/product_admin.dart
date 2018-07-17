@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import './products.dart';
 import './product_create.dart';
 import './product_list.dart';
 
@@ -21,7 +20,7 @@ class ProductAdmin extends StatelessWidget {
               new ListTile(
                 title: new Text('All Products'),
                 onTap: () {
-                  Navigator.pushReplacementNamed(context, '/admin');
+                  Navigator.pushReplacementNamed(context, '/');
                 },
               )
             ],
